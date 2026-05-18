@@ -21,4 +21,4 @@
 为保证程序能够打开即用，请确保您的项目目录严格遵循以下结构存放数据和权重文件。如下图所示，将kitti官网下载的数据集放在kitti文件夹下,如果有多个，可通过修改[save_lidar_data.py](save_lidar_data.py)#原始数据配置里的date和drive进行更改数据集
 ![img_2.png](reference.png)
 4. 结果查看
-程序运行结束后，所有的中间产物及最终结果均自动保存在 output/ 文件夹中
+运行main.py,程序运行结束后，所有的中间产物及最终结果均自动保存在 output/ 文件夹中
